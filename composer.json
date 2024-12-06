@@ -9,8 +9,11 @@
     "autoload": {
         "psr-4": {
             "Digitools\\MultiTenancy\\": "src/"
-        }
-    },
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },    
     "extra": {
         "laravel": {
             "providers": [
