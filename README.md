@@ -175,13 +175,3 @@ Feel free to open issues or submit pull requests for enhancements or bug fixes.
 ## License
 This package is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
----
-
-### **Testing Checklist**
-1. **Migration Check**: Ensure `tenants` table is created correctly.
-2. **Tenant Creation**: Create multiple tenants and validate entries.
-3. **Database Switching**: Verify the `DatabaseSwitcher` correctly switches tenant databases.
-4. **Middleware Functionality**: Test middleware to ensure tenants are resolved based on the domain.
-5. **Tenant Migrations**: Ensure tenant-specific migrations are applied to the correct databases.
-
-If you have any additional requirements or face issues during testing, let me know!
